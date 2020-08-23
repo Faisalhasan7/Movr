@@ -1,0 +1,442 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ol,
+ul {
+	list-style-type: none;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* Navbar  Start */
+.navbar {
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+	padding: 20px 0px;
+	transition: all linear 0.3s;
+}
+
+.navbar-light .navbar-brand {
+	font-family: 'Proza Libre';
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	padding-right: 15px;
+	padding-left: 15px;
+	transition: all linear 0.3s;
+}
+
+.form-inline button {
+	margin-right: 15px;
+}
+
+.navauto {
+	background: #ffffff;
+	color: #333333;
+	padding: 5px 0px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+/* Banner Start */
+#banner {
+	background: url(../images/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 200px;
+	padding-bottom: 350px;
+	clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0% 0%);
+	margin-bottom: 60px;
+}
+
+.banner-items h1 {
+	font-family: 'Proza Libre';
+	font-weight: 700;
+	font-size: 60px;
+	color: #2f2852;
+	padding-bottom: 35px;
+}
+
+.banner-items a {
+	font-family: 'Open Sans';
+	font-weight: 800;
+	font-size: 15px;
+	text-transform: uppercase;
+	background: #2f2852;
+	padding: 10px 20px;
+	color: #ffffff;
+	border-radius: 4px;
+	text-decoration: none;
+	box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.5);
+	transition: all linear 0.3s;
+}
+
+.banner-items a:hover {
+	background: #ffffff;
+	color: #2f2852;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+/* Features Start */
+#features {
+	margin-bottom: 60px;
+}
+
+.features-heading h1 {
+	font-family: 'Proza Libre';
+	font-weight: 700;
+	font-size: 38px;
+	color: #2f2852;
+	text-transform: capitalize;
+}
+
+.features-items {
+	margin-top: 35px;
+	padding: 30px 20px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+	transition: all linear 0.3s;
+}
+
+.features-items:hover {
+	background: #ffffff;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+}
+
+.features-items i {
+	font-size: 50px;
+	color: #2f2f2f;
+}
+
+.features-items p {
+	font-family: 'Open Sans';
+	font-weight: 800;
+	font-size: 16px;
+	color: #2f2f2f;
+	text-transform: uppercase;
+}
+
+/* Recent Start */
+#recent {
+	margin-bottom: 60px;
+}
+
+.recent-heading {
+	font-family: 'Proza Libre';
+	font-weight: 600;
+	font-size: 18px;
+	padding-bottom: 25px;
+}
+
+.house {
+	position: relative;
+	height: 300px;
+}
+
+.house .top-item {
+	position: absolute;
+	z-index: 10;
+	width: 60%;
+	height: 40%;
+	background: #f9f8fe;
+	left: 5%;
+	bottom: 5%;
+	padding: 12px;
+}
+
+.price ul li {
+	display: inline-block;
+}
+
+.price ul li h4 {
+	font-family: 'Proza Libre';
+	font-weight: 600;
+	font-size: 16px;
+	color: #2f2852;
+	margin: 0;
+}
+
+.price ul li h4 del {
+	padding-right: 10px;
+}
+
+.house-icon ul li {
+	display: inline-block;
+	padding-right: 19px;
+}
+
+.house-icon ul li p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 13px;
+	color: #817d8e;
+	margin: 0;
+}
+
+.house-icon > ul > li:nth-child(3) {
+	padding-right: 0;
+}
+
+.house h5 {
+	font-family: 'Proza Libre';
+	font-weight: 400;
+	font-size: 13px;
+	color: #817d8e;
+}
+
+.fa-angle-left {
+	text-align: center;
+	width: 18px;
+	height: 35px;
+	font-size: 30px;
+	line-height: 35px;
+	background: #ffffff;
+	color: #2f2852;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+	transition: all linear 0.3s;
+}
+
+.fa-angle-left:hover {
+	background: #ffffff;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.fa-angle-right {
+	text-align: center;
+	width: 18px;
+	height: 35px;
+	font-size: 30px;
+	line-height: 35px;
+	background: #ffffff;
+	color: #2f2852;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+	transition: all linear 0.3s;
+}
+
+.fa-angle-right:hover {
+	background: #ffffff;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* Recent End */
+
+/* Benefits Start */
+#benefits {
+	clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0% 0%);
+	margin-bottom: 60px;
+}
+
+.benefits-left-side-items {
+	padding: 75px;
+	background: #2f2852;
+	height: 100%;
+}
+
+.benefits-left-side-items h5 {
+	font-family: 'Proza Libre';
+	font-weight: 600;
+	font-size: 16px;
+	color: #9663e7;
+	text-transform: uppercase;
+}
+
+.benefits-left-side-items h4 {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 30px;
+	color: #ffffff;
+	padding-bottom: 15px;
+}
+
+.bene ol li {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 18px;
+	color: #ffffff;
+	line-height: 32px;
+	padding-left: 20px;
+}
+
+.bene ol li::before {
+	content: "\25E6";
+	color: #9663e7;
+	display: inline-block;
+	width: 1em;
+	font-size: 30px;
+}
+
+/* Benefits End */
+
+/* Reviews Start */
+#Reviews {
+	margin-bottom: 60px;
+}
+
+.reviews-right-side {
+	background: #f9f8fe;
+	padding: 25% 80px;
+	height: 100%;
+}
+
+.reviews-right-side h5 {
+	font-family: 'Proza Libre';
+	font-weight: 600;
+	font-size: 16px;
+	color: #9663e7;
+	text-transform: uppercase;
+}
+
+.reviews-right-side h4 {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 20px;
+	color: #2f2853;
+	padding-bottom: 20px;
+}
+
+.reviews p {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 14px;
+	color: #2f2853;
+	text-align: justify;
+	padding-bottom: 20px;
+}
+
+.review-info h6 {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 14px;
+	color: #2f2853;
+}
+
+.review-info span {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 13px;
+	color: #2f2853;
+	text-transform: capitalize;
+	display: block;
+}
+
+/* Reviews End */
+
+/* How movr works Start */
+#How-it-works {
+	margin-bottom: 60px;
+}
+
+.title-working-methods h5 {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 16px;
+	color: #9663e7;
+	text-transform: uppercase;
+}
+
+.title-working-methods h2 {
+	font-family: 'Proza Libre';
+	font-weight: 600;
+	font-size: 32px;
+	color: #2f2853;
+	text-transform: capitalize;
+}
+
+.methods {
+	padding-top: 50px;
+	padding-left: 30px;
+}
+
+.methods-number ul li h4 {
+	font-family: 'Proza Libre';
+	font-weight: 600;
+	font-size: 18px;
+	text-align: center;
+	color: #ffffff;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	border-radius: 50%;
+	background: #9663e7;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.methods-number ul li h4::before {
+	position: absolute;
+	content: '';
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	border: 1px solid #eeecf7;
+	left: -5px;
+	top: -5px;
+}
+
+.methods-number ul li h4::after {
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 42px;
+	background: #eeecf7;
+	left: 50%;
+	top: 40px;
+}
+
+#How-it-works
+	> div
+	> div
+	> div.col-lg-6.px-0
+	> div.row.methods
+	> div.col-lg-2
+	> div
+	> ul
+	> li:nth-child(4)
+	> h4::after {
+	display: none;
+}
+
+#How-it-works > div > div > div.col-lg-6.px-0 > div.row.methods > div.col-lg-10 > div > ul > li:nth-child(4) > p {
+	padding-bottom: 0;
+}
+
+.methods-texts ul li p {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 18px;
+	padding-bottom: 35px;
+	margin-bottom: 0;
+	color: #2f2853;
+}
+
+/* Trusted by section Start */
+#trusted {
+	margin-bottom: 30px;
+}
+
+.text_in_middle h3 {
+	font-family: 'Proza Libre';
+	font-weight: 600;
+	font-size: 20px;
+	color: #2f2853;
+	text-transform: capitalize;
+}
+
+/* Trusted by section End */
