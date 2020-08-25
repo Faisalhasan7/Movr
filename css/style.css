@@ -1,570 +1,649 @@
 * {
-	margin: 0;
-	padding: 0;
-	outline: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 ol,
 ul {
-	list-style-type: none;
-}
-
-html {
-	scroll-behavior: smooth;
+  list-style-type: none;
 }
 
 /* Navbar  Start */
 .navbar {
-	position: fixed;
-	top: 0;
-	z-index: 999;
-	width: 100%;
-	padding: 20px 0px;
-	transition: all linear 0.3s;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  padding: 20px 0px;
+  transition: all linear 0.3s;
 }
 
 .navbar-light .navbar-brand {
-	font-family: 'Proza Libre';
-	font-size: 20px;
-	font-weight: 500;
+  font-family: "Proza Libre";
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .navbar-light .navbar-nav .nav-link {
-	padding-right: 15px;
-	padding-left: 15px;
-	transition: all linear 0.3s;
+  padding-right: 15px;
+  padding-left: 15px;
+  transition: all linear 0.3s;
 }
 
-.form-inline button {
-	margin-right: 15px;
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Proza Libre";
+  font-weight: 300;
+  font-size: 15px;
+  color: #2f2852;
+  transition: all linear 0.3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #333333;
 }
 
 .navauto {
-	background: #ffffff;
-	color: #333333;
-	padding: 5px 0px;
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+  color: #2f2852;
+  padding: 5px 0px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.navauto:hover {
+  color: #333333;
+}
+
+.nav-buttons a {
+  padding: 10px 20px;
+  background: #6543cb;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  margin-right: 10px;
+  transition: all linear 0.3s;
+}
+.nav-buttons a:hover {
+  background: #ffffff;
+  color: #6543cb;
+}
+#navbarSupportedContent > form > a:nth-child(2) {
+  background: #ffffff;
+  color: #6543cb;
+}
+
+#navbarSupportedContent > form > a:nth-child(2):hover {
+  background: #6543cb;
+  color: #ffffff;
 }
 
 /* Banner Start */
 #banner {
-	background: url(../images/banner.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	padding-top: 200px;
-	padding-bottom: 350px;
-	clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0% 0%);
-	margin-bottom: 60px;
+  background: url(../images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 200px;
+  padding-bottom: 350px;
+  clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0% 0%);
+  margin-bottom: 60px;
 }
 
 .banner-items h1 {
-	font-family: 'Proza Libre';
-	font-weight: 700;
-	font-size: 60px;
-	color: #2f2852;
-	padding-bottom: 35px;
+  font-family: "Proza Libre";
+  font-weight: 700;
+  font-size: 60px;
+  color: #2f2852;
+  padding-bottom: 35px;
 }
 
 .banner-items a {
-	padding: 12px 50px;
-	background: #2f2852;
-	text-decoration: none;
-	font-family: 'Open Sans';
-	font-weight: 800;
-	color: #ffffff;
-	font-size: 16px;
-	border-radius: 3px;
-	transition: all linear 0.3s;
-	box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.25);
-	text-transform: uppercase;
+  padding: 12px 50px;
+  background: #2f2852;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 3px;
+  transition: all linear 0.3s;
+  box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
 }
 
 .banner-items a:hover {
-	background: #f3f3f3;
-	color: #2f2852;
+  background: #f3f3f3;
+  color: #2f2852;
 }
 
 .banner-items a:active {
-	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
 }
 
 /* Features Start */
 #features {
-	margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .features-heading h1 {
-	font-family: 'Proza Libre';
-	font-weight: 700;
-	font-size: 38px;
-	color: #2f2852;
-	text-transform: capitalize;
+  font-family: "Proza Libre";
+  font-weight: 700;
+  font-size: 38px;
+  color: #2f2852;
+  text-transform: capitalize;
 }
 
 .features-items {
-	margin-top: 35px;
-	padding: 30px 20px;
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-	transition: all linear 0.3s;
+  margin-top: 35px;
+  padding: 30px 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  transition: all linear 0.3s;
 }
 
 .features-items:hover {
-	background: #ffffff;
-	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
-	border-radius: 4px;
+  background: #ffffff;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .features-items i {
-	font-size: 50px;
-	color: #2f2f2f;
+  font-size: 50px;
+  color: #2f2f2f;
 }
 
 .features-items p {
-	font-family: 'Open Sans';
-	font-weight: 800;
-	font-size: 16px;
-	color: #2f2f2f;
-	text-transform: uppercase;
+  font-family: "Open Sans";
+  font-weight: 800;
+  font-size: 16px;
+  color: #2f2f2f;
+  text-transform: uppercase;
 }
 
 /* Recent Start */
 #recent {
-	margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .recent-heading {
-	font-family: 'Proza Libre';
-	font-weight: 600;
-	font-size: 18px;
-	padding-bottom: 25px;
+  font-family: "Proza Libre";
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 25px;
 }
 
 .house {
-	position: relative;
-	height: 300px;
+  position: relative;
+  height: 300px;
 }
 
 .house .top-item {
-	position: absolute;
-	z-index: 10;
-	width: 60%;
-	height: 40%;
-	background: #fff;
-	left: 5%;
-	bottom: 5%;
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-	padding: 12px;
+  position: absolute;
+  z-index: 10;
+  width: 60%;
+  height: 40%;
+  background: #fff;
+  left: 5%;
+  bottom: 5%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  padding: 12px;
 }
 
 .price ul li {
-	display: inline-block;
+  display: inline-block;
 }
 
 .price ul li h4 {
-	font-family: 'Proza Libre';
-	font-weight: 600;
-	font-size: 16px;
-	color: #2f2852;
-	margin: 0;
+  font-family: "Proza Libre";
+  font-weight: 600;
+  font-size: 16px;
+  color: #2f2852;
+  margin: 0;
 }
 
 .price ul li h4 del {
-	padding-right: 10px;
+  padding-right: 10px;
 }
 
 .house-icon ul li {
-	display: inline-block;
-	padding-right: 19px;
+  display: inline-block;
+  padding-right: 19px;
 }
 
 .house-icon ul li p {
-	font-family: 'Open Sans';
-	font-weight: 400;
-	font-size: 13px;
-	color: #817d8e;
-	margin: 0;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 13px;
+  color: #817d8e;
+  margin: 0;
 }
 
-.house-icon>ul>li:nth-child(3) {
-	padding-right: 0;
+.house-icon > ul > li:nth-child(3) {
+  padding-right: 0;
 }
 
 .house h5 {
-	font-family: 'Proza Libre';
-	font-weight: 400;
-	font-size: 13px;
-	color: #817d8e;
+  font-family: "Proza Libre";
+  font-weight: 400;
+  font-size: 13px;
+  color: #817d8e;
 }
 
 .fa-angle-left,
 .fa-angle-right {
-	text-align: center;
-	width: 18px;
-	height: 35px;
-	font-size: 30px;
-	line-height: 35px;
-	background: #ffffff;
-	color: #2f2852;
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-	transition: all linear 0.3s;
+  text-align: center;
+  width: 18px;
+  height: 35px;
+  font-size: 30px;
+  line-height: 35px;
+  background: #ffffff;
+  color: #2f2852;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  transition: all linear 0.3s;
 }
 
 .fa-angle-left:hover,
 .fa-angle-right:hover {
-	background: #ffffff;
-	border-radius: 4px;
-	cursor: pointer;
+  background: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .fa-angle-left:active,
 .fa-angle-right:active {
-	background: #f3f3f3;
-	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+  background: #f3f3f3;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
 }
 
 /* Recent End */
 
 /* Benefits Start */
 #benefits {
-	clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0% 0%);
-	margin-bottom: 60px;
+  clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0% 0%);
+  margin-bottom: 60px;
 }
 
 .benefits-left-side-items {
-	padding: 75px;
-	background: #2f2852;
-	height: 100%;
+  padding: 75px;
+  background: #2f2852;
+  height: 100%;
 }
 
 .benefits-left-side-items h5 {
-	font-family: 'Proza Libre';
-	font-weight: 600;
-	font-size: 16px;
-	color: #9663e7;
-	text-transform: uppercase;
+  font-family: "Proza Libre";
+  font-weight: 600;
+  font-size: 16px;
+  color: #9663e7;
+  text-transform: uppercase;
 }
 
 .benefits-left-side-items h4 {
-	font-family: 'Open Sans';
-	font-weight: 600;
-	font-size: 30px;
-	color: #ffffff;
-	padding-bottom: 15px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 30px;
+  color: #ffffff;
+  padding-bottom: 15px;
 }
 
 .bene ol li {
-	font-family: 'Open Sans';
-	font-weight: 400;
-	font-size: 18px;
-	color: #ffffff;
-	line-height: 32px;
-	padding-left: 20px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 32px;
+  padding-left: 20px;
 }
 
 .bene ol li::before {
-	content: "\25E6";
-	color: #9663e7;
-	display: inline-block;
-	width: 1em;
-	font-size: 30px;
+  content: "\25E6";
+  color: #9663e7;
+  display: inline-block;
+  width: 1em;
+  font-size: 30px;
 }
 
 /* Benefits End */
 
 /* Reviews Start */
 #Reviews {
-	margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .reviews-right-side {
-	background: #f9f8fe;
-	padding: 25% 80px;
-	height: 100%;
+  background: #f9f8fe;
+  padding: 25% 80px;
+  height: 100%;
 }
 
 .reviews-right-side h5 {
-	font-family: 'Proza Libre';
-	font-weight: 600;
-	font-size: 16px;
-	color: #9663e7;
-	text-transform: uppercase;
+  font-family: "Proza Libre";
+  font-weight: 600;
+  font-size: 16px;
+  color: #9663e7;
+  text-transform: uppercase;
 }
 
 .reviews-right-side h4 {
-	font-family: 'Open Sans';
-	font-weight: 600;
-	font-size: 20px;
-	color: #2f2853;
-	padding-bottom: 20px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 20px;
+  color: #2f2853;
+  padding-bottom: 20px;
 }
 
 .reviews p {
-	font-family: 'Open Sans';
-	font-weight: 600;
-	font-size: 14px;
-	color: #2f2853;
-	text-align: justify;
-	padding-bottom: 20px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 14px;
+  color: #2f2853;
+  text-align: justify;
+  padding-bottom: 20px;
 }
 
 .review-info h6 {
-	font-family: 'Open Sans';
-	font-weight: 600;
-	font-size: 14px;
-	color: #2f2853;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 14px;
+  color: #2f2853;
 }
 
 .review-info span {
-	font-family: 'Open Sans';
-	font-weight: 400;
-	font-size: 13px;
-	color: #2f2853;
-	text-transform: capitalize;
-	display: block;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 13px;
+  color: #2f2853;
+  text-transform: capitalize;
+  display: block;
 }
 
 /* Reviews End */
 
 /* How movr works Start */
 #How-it-works {
-	margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .title-working-methods h5 {
-	font-family: 'Open Sans';
-	font-weight: 600;
-	font-size: 16px;
-	color: #9663e7;
-	text-transform: uppercase;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 16px;
+  color: #9663e7;
+  text-transform: uppercase;
 }
 
 .title-working-methods h2 {
-	font-family: 'Proza Libre';
-	font-weight: 600;
-	font-size: 32px;
-	color: #2f2853;
-	text-transform: capitalize;
+  font-family: "Proza Libre";
+  font-weight: 600;
+  font-size: 32px;
+  color: #2f2853;
+  text-transform: capitalize;
 }
 
 .methods {
-	padding-top: 50px;
-	padding-left: 30px;
+  padding-top: 50px;
+  padding-left: 30px;
 }
 
 .methods-number ul li h4 {
-	font-family: 'Proza Libre';
-	font-weight: 600;
-	font-size: 18px;
-	text-align: center;
-	color: #ffffff;
-	width: 36px;
-	height: 36px;
-	line-height: 36px;
-	border-radius: 50%;
-	background: #9663e7;
-	position: relative;
-	margin-bottom: 50px;
+  font-family: "Proza Libre";
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 50%;
+  background: #9663e7;
+  position: relative;
+  margin-bottom: 50px;
 }
 
 .methods-number ul li h4::before {
-	position: absolute;
-	content: '';
-	width: 46px;
-	height: 46px;
-	border-radius: 50%;
-	border: 1px solid #eeecf7;
-	left: -5px;
-	top: -5px;
+  position: absolute;
+  content: "";
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 1px solid #eeecf7;
+  left: -5px;
+  top: -5px;
 }
 
 .methods-number ul li h4::after {
-	position: absolute;
-	content: '';
-	width: 1px;
-	height: 42px;
-	background: #eeecf7;
-	left: 50%;
-	top: 40px;
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 42px;
+  background: #eeecf7;
+  left: 50%;
+  top: 40px;
 }
 
-#How-it-works>div>div>div.col-lg-6.px-0>div.row.methods>div.col-lg-2>div>ul>li:nth-child(4)>h4::after {
-	display: none;
+#How-it-works
+  > div
+  > div
+  > div.col-lg-6.px-0
+  > div.row.methods
+  > div.col-lg-2
+  > div
+  > ul
+  > li:nth-child(4)
+  > h4::after {
+  display: none;
 }
 
-#How-it-works>div>div>div.col-lg-6.px-0>div.row.methods>div.col-lg-10>div>ul>li:nth-child(4)>p {
-	padding-bottom: 0;
+#How-it-works
+  > div
+  > div
+  > div.col-lg-6.px-0
+  > div.row.methods
+  > div.col-lg-10
+  > div
+  > ul
+  > li:nth-child(4)
+  > p {
+  padding-bottom: 0;
 }
 
 .methods-texts ul li p {
-	font-family: 'Open Sans';
-	font-weight: 600;
-	font-size: 18px;
-	padding-bottom: 35px;
-	margin-bottom: 0;
-	color: #2f2853;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 35px;
+  margin-bottom: 0;
+  color: #2f2853;
 }
 
 /* Trusted by section Start */
 #trusted {
-	margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .text_in_middle h3 {
-	font-family: 'Proza Libre';
-	font-weight: 600;
-	font-size: 20px;
-	color: #2f2853;
-	text-transform: capitalize;
+  font-family: "Proza Libre";
+  font-weight: 600;
+  font-size: 20px;
+  color: #2f2853;
+  text-transform: capitalize;
 }
 
 /* Trusted by section End */
 
 /* More information Start */
 #more {
-	margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .title-working-methods h4 {
-	font-family: 'Open Sans';
-	font-weight: 600;
-	color: #817d8d;
-	font-size: 14px;
-	line-height: 24px;
-	padding-top: 30px;
-	margin-bottom: 100px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: #817d8d;
+  font-size: 14px;
+  line-height: 24px;
+  padding-top: 30px;
+  margin-bottom: 100px;
 }
 
 .info-buttons a {
-	padding: 10px 50px;
-	background: #6543cb;
-	text-decoration: none;
-	font-family: 'Open Sans';
-	font-weight: 300;
-	color: #ffffff;
-	font-size: 16px;
-	border-radius: 2px;
-	transition: all linear 0.3s;
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-	margin-right: 10px;
+  padding: 10px 50px;
+  background: #6543cb;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 2px;
+  transition: all linear 0.3s;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  margin-right: 10px;
 }
 
 .info-buttons a:hover {
-	background: #ffffff;
-	color: #6543cb;
+  background: #ffffff;
+  color: #6543cb;
 }
 
 .info-buttons a:active {
-	background: #f2f2f2f2;
-	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+  background: #f2f2f2f2;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
 }
 
 .info-buttons a:nth-child(2) {
-	background: #ffffff;
-	color: #6543cb;
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-	transition: all linear 0.3s;
-	border: 1px solid #8d72dd;
+  background: #ffffff;
+  color: #6543cb;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  transition: all linear 0.3s;
+  border: 1px solid #8d72dd;
 }
 
 .info-buttons a:nth-child(2):hover {
-	background: #6543cb;
-	color: #ffffff;
+  background: #6543cb;
+  color: #ffffff;
 }
 
 .info-buttons a:nth-child(2):active {
-	background: #8d72dd;
-	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+  background: #8d72dd;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
 }
 
 /* More information End */
 
 /* Footer Start */
 #footer {
-	margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .quick-links a {
-	font-family: 'Proza Libre';
-	font-weight: 600;
-	font-size: 13px;
-	color: #2f2853;
-	display: block;
-	padding-bottom: 15px;
-	text-decoration: none;
-	transition: all linear 0.3s;
+  font-family: "Proza Libre";
+  font-weight: 600;
+  font-size: 13px;
+  color: #2f2853;
+  display: block;
+  padding-bottom: 15px;
+  text-decoration: none;
+  transition: all linear 0.3s;
 }
 
 .quick-links a:hover {
-	color: #111111;
+  color: #111111;
 }
 
 .address {
-	margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .address h5 {
-	font-family: 'Proza Libre';
-	font-weight: 600;
-	font-size: 13px;
-	color: #2f2853;
-	text-decoration: none;
-	margin-bottom: 0;
+  font-family: "Proza Libre";
+  font-weight: 600;
+  font-size: 13px;
+  color: #2f2853;
+  text-decoration: none;
+  margin-bottom: 0;
 }
 
 .address span,
 .contact span {
-	font-family: 'Proza Libre';
-	font-weight: 400;
-	font-size: 13px;
-	color: #817d8d;
-	text-decoration: none;
-	margin-bottom: 0;
+  font-family: "Proza Libre";
+  font-weight: 400;
+  font-size: 13px;
+  color: #817d8d;
+  text-decoration: none;
+  margin-bottom: 0;
 }
 
 .contact h5 {
-	font-family: 'Proza Libre';
-	font-weight: 600;
-	font-size: 13px;
-	color: #2f2853;
-	text-decoration: none;
-	margin-bottom: 5;
+  font-family: "Proza Libre";
+  font-weight: 600;
+  font-size: 13px;
+  color: #2f2853;
+  text-decoration: none;
+  margin-bottom: 5;
 }
 
 .contact a {
-	font-family: 'Proza Libre';
-	font-weight: 600;
-	font-size: 13px;
-	color: #2f2853;
-	margin-bottom: 5px;
-	text-decoration: none;
-	padding-bottom: 0;
+  font-family: "Proza Libre";
+  font-weight: 600;
+  font-size: 13px;
+  color: #2f2853;
+  margin-bottom: 5px;
+  text-decoration: none;
+  padding-bottom: 0;
 }
 
 /* Footer End */
 
 /* Copyright Start */
 #copy {
-	padding: 20px 0px;
+  padding: 20px 0px;
 }
 
-.copyright h6,
-a {
-	font-family: 'Proza Libre';
-	font-weight: 400;
-	font-size: 13px;
-	color: #817d8d;
-	text-decoration: none;
-	margin-bottom: 0;
-	margin-right: 25px;
+.copyright a {
+  font-family: "Proza Libre";
+  font-weight: 400;
+  font-size: 13px;
+  color: #817d8d;
+  margin-bottom: 0;
+  margin-right: 25px;
+  text-decoration: none;
 }
 
 .copyright a:hover {
-	color: #9663e7;
+  color: #2f2852;
 }
 
 /* Copyright End */
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.back-to-top i {
+  background: #ffffff;
+  padding: 10px;
+  font-size: 20px;
+  color: ##2f2852;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  transition: all linear 0.3s;
+}
+
+.back-to-top i:hover {
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.back-to-top i:active {
+  background: f3f3f3;
+  color: #ffffff;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+}
