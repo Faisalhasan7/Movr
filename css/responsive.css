@@ -1,0 +1,151 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* Navbar Start */
+    .navbar {
+        padding: 5px 0px;
+    }
+
+    .navbar-brand {
+        padding-left: 20px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, .5);
+        border-color: transparent !important;
+    }
+
+    .navbar-light .navbar-toggler span.fa {
+        font-size: 25px;
+    }
+
+    .navbar-collapse {
+        background: #ffffff;
+    }
+
+    /* Banner Start */
+    .banner-items h1 {
+        font-size: 30px;
+        padding-bottom: 35px;
+    }
+
+    #banner {
+        padding-top: 150px;
+        padding-bottom: 200px;
+        clip-path: polygon(100% 0, 100% 93%, 50% 100%, 0 93%, 0% 0%);
+        margin-bottom: 60px;
+    }
+
+    /* Recent Start */
+    .house .top-item {
+        bottom: 15%;
+    }
+
+    .price ul li h4 {
+        font-size: 13px;
+    }
+
+    .price ul li h4 del {
+        padding-right: 8px;
+    }
+
+    .house-icon ul li p {
+        font-size: 12px;
+    }
+
+    .house-icon ul li {
+        padding-right: 10px;
+    }
+
+    .house h5 {
+        font-size: 12px;
+    }
+
+    /* Benefits Start */
+    .benefits-left-side-items {
+        padding: 20px;
+    }
+
+    .bene ol li {
+        font-size: 14px;
+        padding-left: 15px;
+    }
+
+    #benefits {
+        clip-path: polygon(100% 0, 100% 95%, 50% 100%, 0 95%, 0% 0%);
+    }
+
+    /* Reviews Start  */
+    .reviews-right-side {
+        background: #f9f8fe;
+        padding: 10% 20px;
+        height: 100%;
+    }
+
+    /* How movr works */
+    .title-working-methods {
+        padding-left: 20px;
+    }
+
+    /* Payment Start */
+    .title-working-methods h2 {
+        font-size: 30px;
+    }
+
+    .methods-texts ul li p {
+        font-size: 15px;
+        padding-bottom: 42px;
+    }
+
+    /* FAQs Start */
+    .title-working-methods {
+        padding-left: 10px;
+    }
+
+    .title-working-methods h4 {
+        margin-bottom: 50px;
+    }
+
+    .info-buttons a {
+        padding: 10px 10px;
+    }
+
+    /* Footer Start */
+    .quick-links {
+        margin-bottom: 20px;
+    }
+
+    .quick-links a {
+        padding-bottom: 0px;
+    }
+
+    /* Copyright Start */
+    .copyright a {
+        margin-right: 4px;
+    }
+
+    /* Back to top Start */
+    .back-to-top i {
+        padding: 5px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    ...
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    ...
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    ...
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    ...
+}
