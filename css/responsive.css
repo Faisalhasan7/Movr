@@ -1,6 +1,10 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
+    html {
+        overflow-x: hidden;
+    }
+
     /* Navbar Start */
     .navbar {
         padding: 5px 0px;
@@ -116,7 +120,7 @@
     }
 
     .quick-links a {
-        padding-bottom: 0px;
+        padding-bottom: 5px;
     }
 
     /* Copyright Start */
@@ -128,11 +132,73 @@
     .back-to-top i {
         padding: 5px;
     }
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    ...
+    html {
+        overflow-x: hidden;
+    }
+
+    /* Navbar Start */
+    .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, .5);
+        border-color: transparent !important;
+    }
+
+    .navbar-light .navbar-toggler span.fa {
+        font-size: 25px;
+    }
+
+    .navbar-collapse {
+        background: #ffffff;
+    }
+
+    /* Banner Start */
+    .banner-items h1 {
+        padding-bottom: 35px;
+    }
+
+    #banner {
+        clip-path: polygon(100% 0, 100% 93%, 50% 100%, 0 93%, 0% 0%);
+        margin-bottom: 60px;
+    }
+
+    /* Features Start */
+    .features-items {
+        padding: 30px 10px;
+    }
+
+    /* Recent Start */
+    .house {
+        height: 400px;
+    }
+
+    .house .top-item {
+        width: 45%;
+        height: 30%;
+        bottom: 0%;
+    }
+
+    /* Benefits  Start */
+    #benefits {
+        clip-path: polygon(100% 0, 100% 95%, 50% 100%, 0 95%, 0% 0%);
+    }
+
+    /* Footer Start */
+    .quick-links {
+        margin-bottom: 20px;
+    }
+
+    .quick-links a {
+        padding-bottom: 5px;
+    }
+
+    /* Copyright Start */
+    .copyright a {
+        margin-right: 13px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
